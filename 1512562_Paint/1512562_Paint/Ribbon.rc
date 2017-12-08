@@ -1,0 +1,72 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+#include ".\RibbonIDs.h"
+
+STRINGTABLE 
+BEGIN
+    DrawTab_LabelTitle_RESID L"Draw" /* LabelTitle DrawTab_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_MENU_NEW_LabelTitle_RESID L"New" /* LabelTitle ID_MENU_NEW_LabelTitle_RESID: (null) */
+END
+
+ID_MENU_NEW_SmallImages_RESID    BITMAP    "res\\New.bmp" /* SmallImages ID_MENU_NEW_SmallImages_RESID: (null) */
+ID_MENU_NEW_LargeImages_RESID    BITMAP    "res\\New.bmp" /* LargeImages ID_MENU_NEW_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_MENU_EXIT_LabelTitle_RESID L"Exit" /* LabelTitle ID_MENU_EXIT_LabelTitle_RESID: (null) */
+END
+
+ID_MENU_EXIT_SmallImages_RESID    BITMAP    "res\\Exit.bmp" /* SmallImages ID_MENU_EXIT_SmallImages_RESID: (null) */
+ID_MENU_EXIT_LargeImages_RESID    BITMAP    "res\\Exit.bmp" /* LargeImages ID_MENU_EXIT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    GroupShapes_LabelTitle_RESID L"Shapes" /* LabelTitle GroupShapes_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_SHAPES_RECT_LabelTitle_RESID L"Rectangle" /* LabelTitle ID_SHAPES_RECT_LabelTitle_RESID: (null) */
+END
+
+ID_SHAPES_RECT_SmallImages_RESID    BITMAP    "res\\rectangle.bmp" /* SmallImages ID_SHAPES_RECT_SmallImages_RESID: (null) */
+ID_SHAPES_RECT_LargeImages_RESID    BITMAP    "res\\rectangle.bmp" /* LargeImages ID_SHAPES_RECT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_SHAPES_CIRCLE_LabelTitle_RESID L"Circle" /* LabelTitle ID_SHAPES_CIRCLE_LabelTitle_RESID: (null) */
+END
+
+ID_SHAPES_CIRCLE_SmallImages_RESID    IMAGE    "res\\circle.png" /* SmallImages ID_SHAPES_CIRCLE_SmallImages_RESID: (null) */
+ID_SHAPES_CIRCLE_LargeImages_RESID    IMAGE    "res\\circle.png" /* LargeImages ID_SHAPES_CIRCLE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_SHAPES_SQUARE_LabelTitle_RESID L"Square" /* LabelTitle ID_SHAPES_SQUARE_LabelTitle_RESID: (null) */
+END
+
+ID_SHAPES_SQUARE_SmallImages_RESID    IMAGE    "res\\square.png" /* SmallImages ID_SHAPES_SQUARE_SmallImages_RESID: (null) */
+ID_SHAPES_SQUARE_LargeImages_RESID    IMAGE    "res\\square.png" /* LargeImages ID_SHAPES_SQUARE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_SHAPES_ELIP_LabelTitle_RESID L"Ellipse" /* LabelTitle ID_SHAPES_ELIP_LabelTitle_RESID: (null) */
+END
+
+ID_SHAPES_ELIP_SmallImages_RESID    IMAGE    "res\\elip.png" /* SmallImages ID_SHAPES_ELIP_SmallImages_RESID: (null) */
+ID_SHAPES_ELIP_LargeImages_RESID    IMAGE    "res\\elip.png" /* LargeImages ID_SHAPES_ELIP_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_SHAPES_LINE_LabelTitle_RESID L"Line" /* LabelTitle ID_SHAPES_LINE_LabelTitle_RESID: (null) */
+END
+
+ID_SHAPES_LINE_SmallImages_RESID    IMAGE    "res\\line.png" /* SmallImages ID_SHAPES_LINE_SmallImages_RESID: (null) */
+ID_SHAPES_LINE_LargeImages_RESID    IMAGE    "res\\line.png" /* LargeImages ID_SHAPES_LINE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    fileMenu_LabelTitle_RESID L"Label:fileMenu" /* LabelTitle fileMenu_LabelTitle_RESID: (null) */
+END
+
+APPLICATION_RIBBON    UIFILE    "Ribbon.bml"

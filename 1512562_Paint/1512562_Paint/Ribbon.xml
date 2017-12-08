@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://schemas.microsoft.com/windows/2009/Ribbon">
+  <Application.Commands>
+    
+    <Command Name="DrawTab" LabelTitle="Draw" />
+   
+    
+
+    <Command Name="newMenu" LabelTitle="New" Symbol="ID_MENU_NEW" >
+      <Command.LargeImages>
+        <Image Id ="527">res/New.bmp</Image>
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Id ="527">res/New.bmp</Image>
+       </Command.SmallImages>
+    </Command>
+
+    <Command Name="exitMenu" LabelTitle="Exit"  Symbol="ID_MENU_EXIT"  >
+     <Command.LargeImages>
+        <Image Id ="527">res/Exit.bmp</Image>
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Id ="527">res/Exit.bmp</Image>
+       </Command.SmallImages>
+    </Command>
+    
+    
+    <Command Name="GroupShapes" LabelTitle="Shapes" />
+      
+    <Command Name="Rect" LabelTitle="Rectangle" Symbol="ID_SHAPES_RECT"  >
+     <Command.LargeImages>
+        <Image Id ="527">res/rectangle.bmp</Image>
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Id ="527">res/rectangle.bmp</Image>
+       </Command.SmallImages>
+    </Command>
+   <Command Name="Cir" LabelTitle="Circle" Symbol="ID_SHAPES_CIRCLE"  >
+     <Command.LargeImages>
+        <Image Id ="527">res/circle.png</Image>
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Id ="527">res/circle.png</Image>
+       </Command.SmallImages>
+    </Command>
+    
+  <Command Name="Squa" LabelTitle="Square" Symbol="ID_SHAPES_SQUARE"  >
+     <Command.LargeImages>
+        <Image Id ="527">res/square.png</Image>
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Id ="527">res/square.png</Image>
+       </Command.SmallImages>
+    </Command>
+  
+  <Command Name="Elip" LabelTitle="Ellipse" Symbol="ID_SHAPES_ELIP"  >
+     <Command.LargeImages>
+        <Image Id ="527">res/elip.png</Image>
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Id ="527">res/elip.png</Image>
+       </Command.SmallImages>
+    </Command>
+  
+   <Command Name="Line" LabelTitle="Line" Symbol="ID_SHAPES_LINE"  >
+     <Command.LargeImages>
+        <Image Id ="527">res/line.png</Image>
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Id ="527">res/line.png</Image>
+       </Command.SmallImages>
+    </Command>
+  </Application.Commands>
+  <Application.Views>
+    <Ribbon>
+      <Ribbon.ApplicationMenu>
+        <ApplicationMenu CommandName="fileMenu">
+          <MenuGroup>
+              <Button CommandName="newMenu" />
+          </MenuGroup>
+          <MenuGroup>
+              <Button CommandName="exitMenu" />
+          </MenuGroup>
+        </ApplicationMenu>
+      </Ribbon.ApplicationMenu>
+      <Ribbon.Tabs>
+        <Tab CommandName="DrawTab">
+          <Group  CommandName="GroupShapes"  SizeDefinition="FiveButtons">
+              <Button CommandName="Line" />
+              <Button CommandName="Rect" />
+             <Button CommandName="Elip" />
+              <Button CommandName="Squa" />
+              <Button CommandName="Cir" />
+          
+          </Group>  
+        </Tab>
+      </Ribbon.Tabs>
+    </Ribbon>
+  </Application.Views>
+</Application>
