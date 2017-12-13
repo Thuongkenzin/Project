@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2005
+VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1512562_Paint", "1512562_Paint\1512562_Paint.vcxproj", "{34CD5703-B2AB-40DA-898A-CC3338F6D35E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PaintDLL", "PaintDLL\PaintDLL.vcxproj", "{5A3DF0B9-5F54-44ED-A4DC-247A465B706D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{34CD5703-B2AB-40DA-898A-CC3338F6D35E}.Release|x64.Build.0 = Release|x64
 		{34CD5703-B2AB-40DA-898A-CC3338F6D35E}.Release|x86.ActiveCfg = Release|Win32
 		{34CD5703-B2AB-40DA-898A-CC3338F6D35E}.Release|x86.Build.0 = Release|Win32
+		{5A3DF0B9-5F54-44ED-A4DC-247A465B706D}.Debug|x64.ActiveCfg = Debug|x64
+		{5A3DF0B9-5F54-44ED-A4DC-247A465B706D}.Debug|x64.Build.0 = Debug|x64
+		{5A3DF0B9-5F54-44ED-A4DC-247A465B706D}.Debug|x86.ActiveCfg = Debug|Win32
+		{5A3DF0B9-5F54-44ED-A4DC-247A465B706D}.Debug|x86.Build.0 = Debug|Win32
+		{5A3DF0B9-5F54-44ED-A4DC-247A465B706D}.Release|x64.ActiveCfg = Release|x64
+		{5A3DF0B9-5F54-44ED-A4DC-247A465B706D}.Release|x64.Build.0 = Release|x64
+		{5A3DF0B9-5F54-44ED-A4DC-247A465B706D}.Release|x86.ActiveCfg = Release|Win32
+		{5A3DF0B9-5F54-44ED-A4DC-247A465B706D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

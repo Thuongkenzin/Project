@@ -1,0 +1,5 @@
+LIBRARY
+
+EXPORTS
+	Draw_Line=DrawLineDll
+	Draw_Rect=DrawRectDll

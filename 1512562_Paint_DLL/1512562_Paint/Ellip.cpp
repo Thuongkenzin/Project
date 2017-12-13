@@ -16,5 +16,6 @@ CElip::CElip(Point _bd, Point _kt)
 }
 void CElip::Draw(Graphics *graphic)
 {
-	graphic->DrawEllipse(pen, start.X, start.Y, end.X, end.Y);
+
+	graphic->DrawEllipse(pen, start.X, start.Y, end.X-start.X, end.Y-start.Y);
 }
