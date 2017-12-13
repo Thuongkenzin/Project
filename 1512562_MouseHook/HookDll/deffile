@@ -1,0 +1,4 @@
+LIBRARY
+EXPORTS
+	Create_Hook=CreateHook
+	Remove_Hook=RemoveHook
